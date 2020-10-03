@@ -54,6 +54,15 @@ app.get('/dict', (req, res) => {
     })
 })
 
+/*404 page*/
+
+app.get('*', (req, res) => {
+    res.render('404', {
+        title: '404 page',
+        errorMssg: 'Page not found'
+    })
+})
+
 app.listen(port, () => {
     console.log('Server is up on port' + port)
 })

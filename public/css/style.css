@@ -89,3 +89,28 @@ body {
 .main .submit:hover {
     background-color: rgb(194, 17, 52);
 }
+
+.main #mssg-1 {
+    margin-left: 4rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.main #mssg-2 {
+    margin-left: 4rem;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+
+}
+
+.main #mssg-3 {
+    margin-left: 4rem;
+    font-size: 1.25rem;
+}
+
+.main img {
+    margin-left: 25rem;
+    margin-top: -4rem;
+}
+
+/*ABOUT PAGE STYLING*/
