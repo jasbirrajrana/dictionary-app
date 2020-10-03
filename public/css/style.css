@@ -1,0 +1,91 @@
+/*BASIC PRESET*/
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    font-size: 62.5%;
+
+    min-height: 100vh;
+}
+
+
+
+.main {
+    margin: 0 auto;
+    padding: 2rem 3rem;
+
+
+}
+
+.main .nav {
+    margin: 0 auto;
+    padding: 1rem 2.25rem;
+    background-color: rgb(243, 242, 242);
+
+}
+
+.main .nav .nav-item {
+    text-decoration: none;
+    font-size: 1.65rem;
+    font-weight: 200;
+    color: #000;
+    padding: 1rem;
+    margin-right: 2rem;
+
+}
+
+.main .nav .nav-item:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.main .search-box {
+    margin-top: 3rem;
+    margin-left: 4rem;
+
+}
+
+.search-box .input-box {
+    height: 2rem;
+    width: 55%;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+
+}
+
+.main .heading {
+    margin-top: 2rem;
+    margin-left: 3.60rem;
+    font-size: 3rem;
+    font-weight: 300;
+
+}
+
+.main .submit,
+.main .submit:focus {
+    /* margin-left: 4rem; */
+    margin-top: 1.25rem;
+    padding: 1rem 2rem;
+    border: none;
+    display: block;
+    outline: none;
+    cursor: pointer;
+    background-color: crimson;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 200;
+    border-radius: 2.25px;
+
+}
+
+.main .submit:hover {
+    background-color: rgb(194, 17, 52);
+}
