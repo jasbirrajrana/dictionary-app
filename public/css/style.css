@@ -14,6 +14,7 @@ body {
     font-size: 62.5%;
 
     min-height: 100vh;
+
 }
 
 
@@ -21,9 +22,12 @@ body {
 .main {
     margin: 0 auto;
     padding: 2rem 3rem;
+    height: 80vh;
+
 
 
 }
+
 
 .main .nav {
     margin: 0 auto;
@@ -62,7 +66,7 @@ body {
 }
 
 .main .heading {
-    margin-top: 2rem;
+    margin-top: 1.34rem;
     margin-left: 3.60rem;
     font-size: 3rem;
     font-weight: 300;
@@ -110,7 +114,50 @@ body {
 
 .main img {
     margin-left: 25rem;
-    margin-top: -4rem;
+
+}
+
+.main .go_back {
+    font-size: 1rem;
+    color: #fff;
+    background-color: crimson;
+    padding: 1rem 1rem;
+    margin-left: -50rem;
+    text-decoration: none;
+    font-weight: 200;
+    border-radius: 3px;
+
+
+
 }
 
 /*ABOUT PAGE STYLING*/
+.main .paragraph {
+    font-size: 1.5rem;
+    margin: 2rem 3.2rem;
+}
+
+.main .social-icon {
+
+    background-color: #fff;
+    margin-left: 2.9rem;
+    margin-top: 2.9rem;
+}
+
+.main .social-icon a {
+    font-size: 3rem;
+    margin-right: .5rem;
+    text-decoration: none;
+}
+
+.main .content {
+    margin-left: 3.6rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.main .cta {
+    margin-left: 3.6rem;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}

@@ -6,7 +6,7 @@ const srchElement = document.querySelector('.input-box')
 const YourQ = document.getElementById('mssg-1')
 const meaning = document.getElementById('mssg-2')
 const example = document.getElementById('mssg-3')
-
+const audio = document.querySelector('audio')
 
 
 
@@ -14,7 +14,7 @@ dictForm.addEventListener('submit', (e) => {
 
     e.preventDefault()
     const x = srchElement.value
-    YourQ.textContent = ''
+    YourQ.textContent = 'searching..'
     meaning.textContent = ''
     example.textContent = ''
 
@@ -28,11 +28,12 @@ dictForm.addEventListener('submit', (e) => {
 
                 }
             } else {
-
+                audio.setAttribute("src", data.body[0].phonetics[0].audio);
+                audio.play();
                 YourQ.innerText = data.body[0].word;
                 meaning.innerText = data.body[0].meanings[0].definitions[0].definition;
                 if (data.body[0].meanings[0].definitions[0].example) {
-                    example.innerText = data.body[0].meanings[0].definitions[0].example;
+                    example.innerText = "example: " + data.body[0].meanings[0].definitions[0].example;
                 }
             }
         })
